@@ -1,0 +1,92 @@
+/* Body */
+.Big-Header {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 0.5rem;
+}
+
+/* Description Section */
+.description-text {
+  font-size: 1rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+
+.description-size-box {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.card-img-top {
+  width: 25%;
+  padding-left: 5%;
+}
+
+.card-group {
+  padding: none 15%;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+#main-body {
+  padding: 20% 15%;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card {
+  height: 28rem;
+  padding: 4% 3%;
+}
+
+/* Buttons */
+.btn-shape {
+  border-radius: 25px;
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* Button Hover */
+.btn-hover-sedan:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: #fff;
+}
+
+.btn-hover-suvs:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: #fff;
+}
+
+.btn-hover-luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: #fff;
+}
+
+/* Credit Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media (max-width: 350px) and (min-width: 1440px) { 
+    .card {
+        height: 15rem;
+        padding: 2% 1%;
+      }
+  
+}
